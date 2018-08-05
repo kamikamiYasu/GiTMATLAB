@@ -1,10 +1,23 @@
+%matrix = m * n行列,leakbit = 1 * nのベクトルで中身は1:n
+%これが前提条件
 function delta1_2 = calcDelta1(matrix,leakbit)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 圧縮に使う行列Aの判定 (Aの条件：すべての列が非ゼロベクトルであること)
 A = matrix;
-
 [Arow,Acol] = size(A);
+%leakbitの列の長さを格納
+leaklen = length(leakbit)
+%delta1(leakbit)を格納する変数、leakbitの数分列がある
+Deltade = zeros(1,leaklen);
+%leakbitの中に符号長を超える部分がないか判定するための変数
+B = leakbit(~(leakbit <= Acol));
+%Bが空行列、つまり符号長を超えるものがない場合
+if ~isempty(B)
+    %BにAcolの値、つまり
+    B = leakbit(~(leakbit < Acol))
+    Deltade(1,B) = Acol;
+else
+    disp("error! leakbit over the range")
+end
 if Acol == leakbit
     delta1_2 = Arow;
     return
