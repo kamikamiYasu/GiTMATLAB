@@ -3,10 +3,10 @@ function delta1 = calcDelta1(matrix,leakbit)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 圧縮に使う行列Aの判定 (Aの条件：すべての列が非ゼロベクトルであること)
 A = matrix;
-
+Arank = gfrank(A);
 [Arow,Acol] = size(A);
 if Acol == leakbit
-    delta1 = Arow;
+    delta1 = Arank;
     return
 else if Acol < leakbit
         disp("error!")
@@ -23,9 +23,9 @@ safepat = nchoosek(AcolIndex,s);
 [safepatrow,safepatcol] = size(safepat);
 
 %取りうるランクの値一覧
-rankvalArray = 1:Arow;
+rankvalArray = 1:Arank;
 %その個数をカウントするための変数
-rankcount = zeros(1,Arow);
+rankcount = zeros(1,Arank);
 %すべての組み合わせに対して
 for i = 1:safepatrow
     %rank A(n-l) を計算するためのバッファ
@@ -49,7 +49,7 @@ for i = 1:safepatrow
 end
 
 %deの計算
-delta1 = Arow;
+delta1 = Arank;
 buff2 = rankvalArray .* sym(rankcount ./ safepatrow);
 delta1 = delta1 - sum(buff2);
 % for i = 1:Arow

@@ -1,7 +1,7 @@
 %matrix = m * n行列,leakbit = 1 * nのベクトルで中身は1:n
 %これが前提条件
 function delta1_2 = calcDelta1(matrix,leakbit)
-%gitテスト　ラボPCから
+
 A = matrix;
 [Arow,Acol] = size(A);
 %leakbitの列の長さを格納
