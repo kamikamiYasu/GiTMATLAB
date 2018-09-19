@@ -1,4 +1,4 @@
-function delta1 = calcDelta1(matrix,leakbit)
+ function delta1 = calcDelta1(matrix,leakbit)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 圧縮に使う行列Aの判定 (Aの条件：すべての列が非ゼロベクトルであること)
