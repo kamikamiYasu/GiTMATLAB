@@ -7,19 +7,14 @@ epsilon = 0:0.01:1;
 [epsilonrow,epsiloncol] = size(epsilon);
 %セキュリティレートを格納する変数を初期化
 Rsec = zeros(epsilonrow,epsiloncol)';
-%plotようにデータテーブルを作成、最初の列にx軸となるイプシロンを代入
-plotDataTable = array2table(epsilon','VariableNames',{'epsilon'});
+%構造体の最後尾の添字
+bot = length(struct2cell(usematrix))
 
-%usematrixでforを回すため
-for mi = 1:length(struct2cell(usematrix))
     for i = 1:epsiloncol
-        Rsec(i) = calcevalkai(deltadeta(mi).delta,epsilon(i));
+        Rsec(i) = calcevalkai(deltadeta(bot).delta,epsilon(i));
     end
     sym(Rsec)
 %     T = array2table(evalution,'VariableNames',{usematrix(mi).name});
 %     plotDataTable(:,mi+1) = T 
 %データテーブルに行列の名前の列を作成し、そこにRsecを代入
- plotDataTable(:,{usematrix(mi).name}) = array2table(Rsec) ;
-end
-
-%ここは関数じゃなくて別のスクリプトにしたほうが良い
+ plotDataTable(:,{usematrix(bot).name}) = array2table(Rsec) ;
