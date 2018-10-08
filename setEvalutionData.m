@@ -13,9 +13,9 @@ plotDataTable = array2table(epsilon','VariableNames',{'epsilon'});
 %usematrixでforを回すため
 for mi = 1:length(struct2cell(usematrix))
     for i = 1:epsiloncol
-        Rsec(i) = calcevalkai(deltadeta(mi).delta,epsilon(i));
+        Rsec(i) = calcevalkai(usematrix(mi).matrix,deltadeta(mi).delta,epsilon(i));
     end
-    sym(Rsec)
+    sym(Rsec);
 %     T = array2table(evalution,'VariableNames',{usematrix(mi).name});
 %     plotDataTable(:,mi+1) = T 
 %データテーブルに行列の名前の列を作成し、そこにRsecを代入

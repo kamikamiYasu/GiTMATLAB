@@ -11,7 +11,7 @@ Rsec = zeros(epsilonrow,epsiloncol)';
 bot = length(struct2cell(usematrix))
 
     for i = 1:epsiloncol
-        Rsec(i) = calcevalkai(deltadeta(bot).delta,epsilon(i));
+        Rsec(i) = calcevalkai(usematrix(bot).matrix,deltadeta(bot).delta,epsilon(i));
     end
     sym(Rsec)
 %     T = array2table(evalution,'VariableNames',{usematrix(mi).name});
