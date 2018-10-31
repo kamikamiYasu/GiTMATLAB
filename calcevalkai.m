@@ -1,4 +1,4 @@
-function rsec = calcevalkai(deltadeta,leakprovably)
+function rsec = calcevalkai(matrix,deltadeta,leakprovably)
 
 [row,col] = size(deltadeta);
 deltaSum = 0;
