@@ -6,7 +6,7 @@ buff = zeros(2,(col-1));
 for i = 2:col
     max = table2array(usedatatable(1,i));
     for j = 1:row
-        if table2array(usedatatable(j,i)) < (max * 0.7)
+        if table2array(usedatatable(j,i)) < (max * 0.99)
             max = table2array(usedatatable(j,i));
             break;
         end
@@ -28,6 +28,6 @@ end
 %     end
 % end
 hold on 
-   plot(buff(1,:),buff(2,:),'k*','DisplayName','ˆÀ’è’l * 0.7');
+   stem(buff(1,:),buff(2,:),'k*','DisplayName','ˆÀ’è’l * 0.99');
 hold off
    

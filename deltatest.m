@@ -1,7 +1,7 @@
 %使う行列を引っ張ってくる
 usematrix = matrixstruct;
 %ここでtypeをデルタの値をすべて計算する場合はini,これまでの値に追加する場合はaddに設定する
-type = 'add';
+type = 'ini';
 
 switch type
     case 'add'
