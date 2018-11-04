@@ -6,5 +6,7 @@ load('plotDataTable.mat')
 load('matrixstruct.mat')
 %行列の名前とΔが格納された構造体。新しいものは一番下の行に追加される。デルタは１列に格納されている
 load('havedelta.mat')
+%それぞれの行列のRsecの理論値とそのデルタが格納されている
+load('plotIdealTable.mat')
 
 
