@@ -1,15 +1,15 @@
 %使用する大本の行列を設定
-largematrix = [1 1 1 0 1 1 0 ; 1 0 1 1 0 1 0; 1 0 1 0 1 1 1;1 0 0 1 1 0 1;0 1 1 1 0 1 0; 0 1 1 0 1 0 1 ; 1 1 0 1 1 0 0;];
+largematrix = [1 1 1 0 1 0 0 ; 1 1 0 1 0 1 0;1 0 1 1 0 0 1;1 1 0 1 0 0 1;1 0 1 0 1 0 1;0 1 1 0 0 1 1;1 0 1 0 0 1 1;0 1 0 1 0 1 1;1 1 0 0 1 1 0;0 1 0 0 1 1 1;1 0 1 0 1 1 0;1 0 0 1 1 0 1;1 0 0 1 1 1 0;0 1 0 1 1 0 1;0 0 1 1 0 1 1;0 0 1 1 1 0 1;1 0 1 1 0 1 0;0 1 1 0 1 1 0;0 1 1 1 0 1 0;0 1 1 0 1 0 1;1 1 0 1 1 0 0;0 0 1 1 1 0 1;1 1 1 0 1 0 0;0 1 0 0 1 1 1];
 m = 3
 n = 7
 usematrixset = makematrixset(largematrix,m);
 delta = zeros(1,n)
 for i = 1:n
-    for j = 1:101
+    for j = 1:1001
         x = randi(length(usematrixset));
         delta(i) = delta(i) +  calcDelta1(usematrixset{1,i},i);
     end
-    delta(i) = delta(i) / 100
+    delta(i) = delta(i) / 1000;
 end
 
 
