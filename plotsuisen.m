@@ -28,6 +28,8 @@ end
 %     end
 % end
 hold on 
-   stem(buff(1,:),buff(2,:),'k*','DisplayName','ˆÀ’è’l * 0.99');
+   %stem(buff(1,:),buff(2,:),'k*','DisplayName','ˆÀ’è’l * 0.99');
+   plot(buff(1,:),buff(2,:),'r*')
+   lsline
 hold off
    

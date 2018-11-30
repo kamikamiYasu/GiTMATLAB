@@ -1,5 +1,5 @@
 %入力に使うデータセルを指定
-inputData = plotIdealTable;
+inputData = plotDataTable;
 
 colordata = {'c-','m-','y-','r-','g-','b-'};
 %グラフの上書き設定

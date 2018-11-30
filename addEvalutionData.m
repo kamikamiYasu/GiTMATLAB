@@ -1,3 +1,4 @@
+%havedelta = 行列のシュミレーション値　idealdelta = その行列と同じ行、列数の行列での情報漏えい料の最高値
 deltadeta = havedelta
 %matrixstructは構造体でcell配列にすると1列目に行列の名前、２列めに行列が格納されている
 usematrix = matrixstruct;

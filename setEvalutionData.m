@@ -1,3 +1,4 @@
+%havedelta用
 deltadeta = idealdelta
 %matrixstructは構造体でcell配列にすると1列目に行列の名前、２列めに行列が格納されている
 usematrix = matrixstruct;
@@ -8,7 +9,7 @@ epsilon = 0:0.01:1;
 %セキュリティレートを格納する変数を初期化
 Rsec = zeros(epsilonrow,epsiloncol)';
 %plotようにデータテーブルを作成、最初の列にx軸となるイプシロンを代入
-plotDeltaTable = array2table(epsilon','VariableNames',{'epsilon'});
+plotbuffTable = array2table(epsilon','VariableNames',{'epsilon'});
 
 %usematrixでforを回すため
 for mi = 1:length(struct2cell(usematrix))
@@ -19,7 +20,7 @@ for mi = 1:length(struct2cell(usematrix))
 %     T = array2table(evalution,'VariableNames',{usematrix(mi).name});
 %     plotDataTable(:,mi+1) = T 
 %データテーブルに行列の名前の列を作成し、そこにRsecを代入
- plotDeltaTable(:,{usematrix(mi).name}) = array2table(Rsec) ;
+ plotbuffTable(:,{usematrix(mi).name}) = array2table(Rsec) ;
 end
-
-%ここは関数じゃなくて別のスクリプトにしたほうが良い
+%deltadetaを変更したらここも変更する
+plotDataTable = plotbuffTable;

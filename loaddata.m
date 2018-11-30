@@ -8,5 +8,5 @@ load('matrixstruct.mat')
 load('havedelta.mat')
 %それぞれの行列のRsecの理論値とそのデルタが格納されている
 load('plotIdealTable.mat')
-
+load('plotgenkaiRsecOthers.mat')
 
