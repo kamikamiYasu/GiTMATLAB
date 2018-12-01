@@ -1,4 +1,4 @@
-%havedelta用
+%ここでどのデルタを使用するのか決める
 deltadeta = idealdelta
 %matrixstructは構造体でcell配列にすると1列目に行列の名前、２列めに行列が格納されている
 usematrix = matrixstruct;
@@ -23,4 +23,4 @@ for mi = 1:length(struct2cell(usematrix))
  plotbuffTable(:,{usematrix(mi).name}) = array2table(Rsec) ;
 end
 %deltadetaを変更したらここも変更する
-plotDataTable = plotbuffTable;
+plotIdealTable = plotbuffTable;

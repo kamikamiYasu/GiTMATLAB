@@ -6,7 +6,6 @@ type = 'ini';
 switch type
     case 'add'
         %デルタの値を読み込む
-        load('havedelta.mat')
         %現在の行列とΔの個数を読み込む
         bottom = length(struct2cell(havedelta));
 %         havedelta(bottom+1).name = usematrix(bottom+1).name;
