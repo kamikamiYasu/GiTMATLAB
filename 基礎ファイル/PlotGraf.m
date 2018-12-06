@@ -1,6 +1,4 @@
-%入力に使うデータセルを指定
-inputData = plotDataTable;
-
+function PlotGraf(inputData)
 colordata = {'c-','m-','y-','r-','g-','b-'};
 %グラフの上書き設定
 hold on 
@@ -13,3 +11,4 @@ ylabel('$$R_{sec}$$','Interpreter', 'Latex','FontSize',20);
     legend(inputData.Properties.VariableNames{2:col});
 
  hold off
+end

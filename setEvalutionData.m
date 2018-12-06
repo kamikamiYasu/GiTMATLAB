@@ -1,15 +1,12 @@
-%ここでどのデルタを使用するのか決める
-deltadeta = idealdelta
-%matrixstructは構造体でcell配列にすると1列目に行列の名前、２列めに行列が格納されている
-usematrix = matrixstruct;
+function plotData = setEvalutionData(usematrix,deltadeta,sps)
 %どのぐらいの感覚でプロットするかをここで設定
-epsilon = 0:0.01:1;
+epsilon = 0:sps:1;
 %for文で回すためにイプシロンの列の長さを置く
 [epsilonrow,epsiloncol] = size(epsilon);
 %セキュリティレートを格納する変数を初期化
 Rsec = zeros(epsilonrow,epsiloncol)';
 %plotようにデータテーブルを作成、最初の列にx軸となるイプシロンを代入
-plotbuffTable = array2table(epsilon','VariableNames',{'epsilon'});
+plotData = array2table(epsilon','VariableNames',{'epsilon'});
 
 %usematrixでforを回すため
 for mi = 1:length(struct2cell(usematrix))
@@ -20,7 +17,7 @@ for mi = 1:length(struct2cell(usematrix))
 %     T = array2table(evalution,'VariableNames',{usematrix(mi).name});
 %     plotDataTable(:,mi+1) = T 
 %データテーブルに行列の名前の列を作成し、そこにRsecを代入
- plotbuffTable(:,{usematrix(mi).name}) = array2table(Rsec) ;
+ plotData(:,{usematrix(mi).name}) = array2table(Rsec) ;
 end
-%deltadetaを変更したらここも変更する
-plotIdealTable = plotbuffTable;
+
+end
