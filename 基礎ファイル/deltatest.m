@@ -25,8 +25,8 @@ switch type
 %         end
 %         havedelta(bottom+1).delta = buff1;
     case 'ini'
-        
-    for mi = 1:length(struct2cell(usematrix))
+        if isstruct(usematrix) == 1
+              for mi = 1:length(struct2cell(usematrix))
         %行列の名前をコピー
         havedelta(mi).name = usematrix(mi).name;
         [~,matrixcol] = size(usematrix(mi).matrix);
@@ -39,6 +39,16 @@ switch type
         havedelta(mi).delta = buff1;
     end
     deltadata = havedelta;
+        elseif isstruct(havedelta) == 0
+           [~,matrixcol] = size(matrix);
+           buff1 = zeros(matrixcol,1)
+           for i = 1:matrixcol
+               buff1(i) = calcDelta1(usematrix,i);
+           end
+           deltadata = buff1;
+        else
+            disp("error! usematrix and havedelta don't match data type")
+        end
 end
 end
 
