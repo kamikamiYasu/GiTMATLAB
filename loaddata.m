@@ -10,3 +10,5 @@ load('havedelta.mat')
 load('plotIdealTable.mat')
 load('plotgenkaiRsecOthers.mat')
 
+load('HarfRateMatrix')
+
