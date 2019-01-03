@@ -40,7 +40,7 @@ switch type
     end
     deltadata = havedelta;
         elseif isstruct(havedelta) == 0
-           [~,matrixcol] = size(matrix);
+           [~,matrixcol] = size(usematrix);
            buff1 = zeros(matrixcol,1)
            for i = 1:matrixcol
                buff1(i) = calcDelta1(usematrix,i);
