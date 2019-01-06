@@ -1,8 +1,11 @@
+%HarfRatedelta = struct('name',[],'delta',[])
 %デルタの値を計算
-% deltadata = idealdelta%deltatest(matrixstruct,havedelta,'ini');
+%deltadata = deltatest(HarfRateMatrix,HarfRatedelta,'ini');
 %Rsecの値を計算(!引数に使用するものはdeltatestと同じもの!)
-% plotData = setEvalutionData(matrixstruct,deltadata,0.01);
+HarfRatedelta(1).delta = deltadata
+plotData = setEvalutionData(HarfRateMatrix,HarfRatedelta,0.01);
 %グラフを書く
-PlotGraf(plotDataTable)
+PlotGraf(plotData)
 %計算したデータを格納(!代入するのはdeltatestなどで使用した変数に!)
-%havedelta = deltadata
+%HarfRatedelta = deltadata
+plotHarfRate = plotData
