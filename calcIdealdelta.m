@@ -1,11 +1,5 @@
-usematrix = matrixstruct;
+function idealdelta =  calcIdealdelta(usematrix)
 
-type = 'ini'
-
-switch type
-    case 'add'
-        
-    case 'ini'
         idealdelta = struct('name','delta');
         for mi = 1:length(struct2cell(usematrix))
         %行列の名前をコピー
@@ -20,3 +14,4 @@ switch type
         idealdelta(mi).delta = buff1;
         end
 end
+

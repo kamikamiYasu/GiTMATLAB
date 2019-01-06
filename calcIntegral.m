@@ -1,3 +1,4 @@
+%それぞれの行列で符号レートが異なるときに用いる
 function ratevalue = calcIntegral(plotDataTable,theoreticalvalue,plotIdealTable)
 
 simulationIntegral = struct('name',[],'integralvalue',[],'theoreticalvalue',[],'idealcalvalue',[],'inte_theoratio',[],'inte_idealratio',[]);
