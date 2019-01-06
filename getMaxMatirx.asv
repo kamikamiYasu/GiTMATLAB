@@ -1,22 +1,21 @@
 %îÈñßèÓïÒêî
-m = 5
+m = 3
 %ïÑçÜí∑
-n = 10
+n = 6
 MatrixSource =zeros(m,(2^m -1))
-MatrixIndex = [1:(2^(m+1) - 1)];
+MatrixIndex = [1:(2^m - 1)];
 for i = 1:(2^m - 1)
 buff = fliplr(de2bi(i,m))
 
 MatrixSource(:,i) = buff';
 end
-pickupIndex = nchoosek(MatrixIndex,m)
+pickupIndex = nchoosek(MatrixI)
 tempmatrix = zeros(m,n);
 tempdelta = zeros(1,n);
 maxmatrix = tempmatrix;
 maxdelta = tempdelta;
-buff = eye(m);
 for i = 1:length(pickupIndex)
-        tempmatrix = horzcat(MatrixSource(:,pickupIndex(i,:)),buff)
+        tempmatrix = MatrixSource(:,pickupIndex(i,:))
         if gfrank(tempmatrix) == m
             tempdelta = deltatest(tempmatrix,tempdelta,'ini');
             if maxdelta <= tempdelta
