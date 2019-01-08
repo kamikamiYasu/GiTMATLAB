@@ -1,7 +1,7 @@
 %”é–§î•ñ”
-m = 5
+m = 6
 %•„†’·
-n = 10
+n = 9
 MatrixSource =zeros(m,(2^m -1))
 MatrixIndex = [1:(2^m - 1)];
 for i = 1:(2^m - 1)
