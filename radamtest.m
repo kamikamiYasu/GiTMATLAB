@@ -1,8 +1,8 @@
 strage = struct('avrdelta',[],'mindelta',[],'minmatrix',[]);
 
-Marray = [6 7 8 9 10]
-Narray = [12 14 16 18 20]
+Marray = [9 12 15]
+Narray = [12 16 20]
 
-for i = 1:5
+for i = 1:3
     strage(i) = randammatrix(Narray(i),Marray(i))
 end
