@@ -11,4 +11,5 @@ load('plotIdealTable.mat')
 load('plotgenkaiRsecOthers.mat')
 
 load('HarfRateMatrix')
+load('FTRateMatrix')
 
