@@ -4,4 +4,4 @@ Marray = [6 4]
 Narray = [8 2]
 
 
-    strage = randammatrix(11,5)
+    strage = randammatrix(15,7)
