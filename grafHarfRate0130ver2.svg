@@ -12,7 +12,7 @@
    height="315"
    version="1.1"
    id="svg4253"
-   sodipodi:docname="grafHarfRate0130.svg"
+   sodipodi:docname="grafHarfRate0130ver2.svg"
    inkscape:version="0.92.1 r15371">
   <metadata
      id="metadata4257">
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -35,16 +35,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
+     inkscape:window-width="757"
+     inkscape:window-height="877"
      id="namedview4255"
      showgrid="false"
      inkscape:zoom="2.6126984"
-     inkscape:cx="192.76532"
-     inkscape:cy="145.36362"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:cx="126.07606"
+     inkscape:cy="114.74394"
+     inkscape:window-x="1159"
+     inkscape:window-y="48"
+     inkscape:window-maximized="0"
      inkscape:current-layer="g4251"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -425,14 +425,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
-       x="63.153091"
-       y="607.41797"
+       x="97.600235"
+       y="610.09717"
        id="text4269"><tspan
          sodipodi:role="line"
          id="tspan4267"
-         x="63.153091"
-         y="607.41797"
-         style="font-size:16px;stroke-width:0.5">ExHam(8,4)</tspan></text>
+         x="97.600235"
+         y="610.09717"
+         style="font-size:16px;stroke-width:0.5">8</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
@@ -447,47 +447,47 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="26.341759"
-       y="621.90808"
+       x="51.602997"
+       y="610.04297"
        id="text4269-8"><tspan
          sodipodi:role="line"
          id="tspan4267-1"
-         x="26.341759"
-         y="621.90808"
-         style="font-size:16px;stroke-width:0.5">Lin(6,3)</tspan></text>
+         x="51.602997"
+         y="610.04297"
+         style="font-size:16px;stroke-width:0.5">6</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="120.66267"
-       y="622.67352"
+       x="140.18271"
+       y="609.2774"
        id="text4269-8-7"><tspan
          sodipodi:role="line"
          id="tspan4267-1-4"
-         x="120.66267"
-         y="622.67352"
-         style="font-size:16px;stroke-width:0.5">Lin(10,5)</tspan></text>
+         x="140.18271"
+         y="609.2774"
+         style="font-size:16px;stroke-width:0.5">10</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="168.88867"
-       y="606.98096"
+       x="185.34676"
+       y="610.04291"
        id="text4269-8-7-9"><tspan
          sodipodi:role="line"
          id="tspan4267-1-4-1"
-         x="168.88867"
-         y="606.98096"
-         style="font-size:16px;stroke-width:0.5">Lin(12,6)</tspan></text>
+         x="185.34676"
+         y="610.04291"
+         style="font-size:16px;stroke-width:0.5">12</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="219.41115"
-       y="621.90808"
+       x="232.04176"
+       y="610.42572"
        id="text4269-8-7-7"><tspan
          sodipodi:role="line"
          id="tspan4267-1-4-9"
-         x="219.41115"
-         y="621.90808"
-         style="font-size:16px;stroke-width:0.5">Lin(14,7)</tspan></text>
+         x="232.04176"
+         y="610.42572"
+         style="font-size:16px;stroke-width:0.5">14</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
@@ -502,36 +502,36 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="261.89594"
-       y="607.36365"
+       x="278.73676"
+       y="610.04285"
        id="text4269-8-7-90"><tspan
          sodipodi:role="line"
          id="tspan4267-1-4-97"
-         x="261.89594"
-         y="607.36365"
-         style="font-size:16px;stroke-width:0.5">Lin(16,8)</tspan></text>
+         x="278.73676"
+         y="610.04285"
+         style="font-size:16px;stroke-width:0.5">16</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="308.97372"
-       y="622.29077"
+       x="326.1973"
+       y="610.42566"
        id="text4269-8-7-4"><tspan
          sodipodi:role="line"
          id="tspan4267-1-4-7"
-         x="308.97372"
-         y="622.29077"
-         style="font-size:16px;stroke-width:0.5">Lin(18,9)</tspan></text>
+         x="326.1973"
+         y="610.42566"
+         style="font-size:16px;stroke-width:0.5">18</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:12.5px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="348.77933"
-       y="608.12915"
+       x="371.74408"
+       y="610.4256"
        id="text4269-8-7-71"><tspan
          sodipodi:role="line"
          id="tspan4267-1-4-2"
-         x="348.77933"
-         y="608.12915"
-         style="font-size:16px;stroke-width:0.5">Lin(20,10)</tspan></text>
+         x="371.74408"
+         y="610.4256"
+         style="font-size:16px;stroke-width:0.5">20</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        d="m 336.55771,356.71932 h 7.27218"
@@ -614,5 +614,15 @@
          x="18.532618"
          id="tspan924-37"
          sodipodi:role="line">0.93</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="71.573517"
+       y="620.81409"
+       id="text4588"><tspan
+         sodipodi:role="line"
+         id="tspan4586"
+         x="71.573517"
+         y="620.81409">ExHam(8,4)</tspan></text>
   </g>
 </svg>
